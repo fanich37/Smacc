@@ -12,7 +12,7 @@
 	window.Smacc = Smacc || {};
 
 	const defaultClassess = {
-		trigger: 'smacc',
+		smacc: 'smacc',
 		content: 'smacc-content',
 		contentOpen: 'smacc_open'
 	};
@@ -33,7 +33,7 @@
 	}
 
 	function init() {
-		
+		this.smacc.classList.add(defaultClassess.smacc);
 		const defaultSettings = {
 			transition: '.3s'
 		};
