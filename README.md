@@ -10,7 +10,8 @@ or
 ```
 new Smacc('#id');
 ```
-Keep in mind that Smacc doesn't support complex CSS selectors (it have to be class or id), for example:
+Keep in mind that Smacc doesn't support complex CSS selectors (it has to be class or id), for example:
 ```
 .class .class2
 ```
+won't work.
